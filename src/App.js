@@ -1,25 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+// import Crud from './1crud/App';
+// import Weather from './2weather';
+import Indo from './3indo/App';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // return <Crud />;
+  // return <Weather />;
+  return <Indo />;
 }
 
 export default App;
