@@ -1,5 +1,5 @@
 import './App.css';
-import Contact from './component/Contact';
+import Contact from './1crud/component/Contact';
 
 function App() {
   return (

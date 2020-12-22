@@ -1,7 +1,7 @@
 import './App.css';
 // import Crud from './1crud/App';
 // import Weather from './2weather';
-import Indo from './3indo/App';
+import Indo from './3notePrawito/App';
 
 function App() {
   // return <Crud />;
