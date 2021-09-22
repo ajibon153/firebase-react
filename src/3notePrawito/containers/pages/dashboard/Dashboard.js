@@ -19,7 +19,8 @@ class Dashboard extends Component {
 
   componentDidMount() {
     const userData = JSON.parse(localStorage.getItem('userData'));
-    this.props.getNotes(userData.uid);
+    console.log('userData', userData);
+    this.props.getNotes(userData !== null ? userData.uid : '');
   }
 
   hanldeSavedNotes = () => {
